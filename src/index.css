@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: red;
+    color: white;
+    padding: 10px;
+  }
+  .nav{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .nav .active{
+    color: white;
+    background-color: blue;
+    font-weight: 700    ;
+  }
